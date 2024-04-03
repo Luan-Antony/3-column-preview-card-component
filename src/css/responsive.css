@@ -1,0 +1,22 @@
+@media(max-width: 768px) {
+    .container .columns {
+        max-width: 700px;
+    }
+
+    .columns .column1, .column2, .column3 {
+        height: 500px;
+    }
+}
+
+@media(max-width: 426px) {
+    .container .columns {
+        flex-direction: column;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .columns .column1, .column2, .column3 {
+        width: 90%;
+        height: auto;
+    }
+}

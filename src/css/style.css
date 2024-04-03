@@ -1,0 +1,82 @@
+body {
+    font-family: "Lexend Deca", sans-serif;
+    background-color: var(--Very-light-gray);
+    width: 100%;
+    min-height: 100vh;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container .columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+}
+
+.columns .column1 {
+    background-color: var(--Bright-orange);
+}
+
+.columns .column2 {
+    background-color: var(--Dark-cyan);
+}
+
+.columns .column3 {
+    background-color: var(--Very-dark-cyan);
+}
+
+.columns .column1, .column2, .column3 {
+    padding: 40px 40px 60px 40px;
+    height: 450px;
+}
+
+.columns .title {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: var(--Very-light-gray);
+}
+
+.columns .description {
+    color: var(--Transparent-white);
+    line-height: 25px;
+}
+
+.columns .column1 .btn {
+    color: var(--Bright-orange);
+}
+
+.columns .column2 .btn {
+    color: var(--Dark-cyan);
+}
+
+.columns .column3 .btn {
+    color: var(--Very-dark-cyan);
+}
+
+.columns .btn {
+    background-color: var(--Very-light-gray);
+    font-weight: 700;
+    margin-top: 60px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    border: none;
+    transition: 0.3 ease-in-out;
+}
+
+.columns .btn:hover {
+    background-color: transparent;
+    color: var(--Very-light-gray);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
